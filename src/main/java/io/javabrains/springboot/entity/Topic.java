@@ -1,8 +1,13 @@
 package io.javabrains.springboot.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Topic {
 	
 	// Attibutes
+	@Id
 	private String id;
 	private String name;
 	private String description;
